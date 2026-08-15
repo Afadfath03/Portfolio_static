@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Archivo_Black, Space_Grotesk } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const display = Archivo_Black({
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body>
         {children}
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
