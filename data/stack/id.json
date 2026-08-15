@@ -6,6 +6,7 @@
     { "name": "BACKEND", "icon": "circle", "items": ["Node.js", "Express", "Python", "Sequelize", "REST API"] },
     { "name": "DATABASE", "icon": "pill", "items": ["PostgreSQL", "SQLite"] },
     { "name": "TOOLS", "icon": "diamond", "items": ["Git", "Axios", "Cheerio", "BeautifulSoup", "Swagger"] },
-    { "name": "DEVOPS", "icon": "hexagon", "items": ["Docker", "GitHub Actions", "Vercel", "Linux"] }
+    { "name": "DEVOPS", "icon": "hexagon", "items": ["Docker", "GitHub Actions", "Vercel", "Linux"] },
+    { "name": "MACHINE LEARNING", "icon": "star", "items": ["Python", "TensorFlow", "Data Science"] }
   ]
 }
