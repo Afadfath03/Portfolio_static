@@ -28,14 +28,14 @@
     {
       "tag": "APP",
       "name": "TalkUp Backend",
-      "desc": "Backend of TalkUp — online counseling platform for SMK Telkom Purwokerto students and counselors (Node.js, Express, Sequelize, PostgreSQL).",
+      "desc": "Backend of TalkUp — online counseling platform for students and counselors (Node.js, Express, Sequelize, PostgreSQL).",
       "image": "",
       "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Backend" }]
     },
     {
       "tag": "APP",
       "name": "TalkUp Frontend",
-      "desc": "Frontend of TalkUp — online counseling platform for SMK Telkom Purwokerto students and counselors.",
+      "desc": "Frontend of TalkUp — online counseling platform for students and counselors.",
       "image": "",
       "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Frontend" }]
     },

@@ -1,8 +1,8 @@
 {
   "title": "PENGALAMAN",
-  "heading": "Lorem ipsum dolor sit amet, consectetur",
+  "heading": "Pengalaman proyek dari karya GitHub saya",
   "items": [
-    { "role": "ROLE", "company": "COMPANY", "period": "2024 - NOW", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.", "tags": ["TAG1", "TAG2"] },
-    { "role": "ROLE", "company": "COMPANY", "period": "2023 - 2024", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.", "tags": ["TAG1", "TAG2"] }
+    { "role": "FULLSTACK DEVELOPER", "company": "PROYEK PRIBADI", "period": "2026 - SEKARANG", "desc": "Membangun platform portofolio dwibahasa dengan admin panel self-hosted — frontend Next.js, backend API dengan autentikasi dan CRUD, penyimpanan SQLite, Dockerized dan di-deploy via GitHub Actions — serta versi statis penuh yang live di afadfath.net.", "tags": ["NEXT.JS", "TYPESCRIPT", "SQLITE", "DOCKER"] },
+    { "role": "FULLSTACK DEVELOPER", "company": "TALKUP", "period": "2025", "desc": "Mengembangkan platform konseling online yang menghubungkan siswa dengan konselor: backend REST API dengan Node.js, Express, Sequelize, dan PostgreSQL lengkap dengan dokumentasi Swagger, serta frontend React.", "tags": ["NODE.JS", "EXPRESS", "POSTGRESQL", "REACT"] }
   ]
 }

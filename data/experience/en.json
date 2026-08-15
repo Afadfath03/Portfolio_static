@@ -1,8 +1,8 @@
 {
   "title": "EXPERIENCE",
-  "heading": "Lorem ipsum dolor sit amet, consectetur",
+  "heading": "Project experience drawn from my GitHub work",
   "items": [
-    { "role": "ROLE", "company": "COMPANY", "period": "2024 - NOW", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.", "tags": ["TAG1", "TAG2"] },
-    { "role": "ROLE", "company": "COMPANY", "period": "2023 - 2024", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.", "tags": ["TAG1", "TAG2"] }
+    { "role": "FULLSTACK DEVELOPER", "company": "PERSONAL PROJECT", "period": "2026 - NOW", "desc": "Built a bilingual portfolio platform with a self-hosted admin panel — Next.js frontend, API backend with authentication and CRUD, SQLite storage, Dockerized and deployed via GitHub Actions — plus a fully static version live at afadfath.net.", "tags": ["NEXT.JS", "TYPESCRIPT", "SQLITE", "DOCKER"] },
+    { "role": "FULLSTACK DEVELOPER", "company": "TALKUP", "period": "2025", "desc": "Developed an online counseling platform connecting students with counselors: REST API backend with Node.js, Express, Sequelize, and PostgreSQL with Swagger documentation, plus a React frontend.", "tags": ["NODE.JS", "EXPRESS", "POSTGRESQL", "REACT"] }
   ]
 }
