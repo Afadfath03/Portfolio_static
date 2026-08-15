@@ -1,10 +1,10 @@
 {
   "title": "TECH STACK",
-  "heading": "Teknologi yang saya gunakan di proyek-proyek GitHub saya",
+  "heading": "Teknologi yang saya gunakan di proyek-proyek saya",
   "categories": [
     { "name": "FRONTEND", "icon": "square", "items": ["React", "Next.js", "TypeScript", "Vite", "Tailwind CSS", "HTML/CSS"] },
-    { "name": "BACKEND", "icon": "circle", "items": ["Node.js", "Express", "Python", "Sequelize", "REST API"] },
-    { "name": "DATABASE", "icon": "pill", "items": ["PostgreSQL", "SQLite"] },
+    { "name": "BACKEND", "icon": "circle", "items": ["Node.js", "Express", "Python", "FastAPI", "Sequelize", "SQLAlchemy", "REST API"] },
+    { "name": "DATABASE", "icon": "pill", "items": ["PostgreSQL", "MySQL", "MariaDB", "MongoDB", "SQLite"] },
     { "name": "TOOLS", "icon": "diamond", "items": ["Git", "Axios", "Cheerio", "BeautifulSoup", "Swagger"] },
     { "name": "DEVOPS", "icon": "hexagon", "items": ["Docker", "GitHub Actions", "Vercel", "Linux"] },
     { "name": "MACHINE LEARNING", "icon": "star", "items": ["Python", "TensorFlow", "Data Science"] }

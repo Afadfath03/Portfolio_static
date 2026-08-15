@@ -16,7 +16,7 @@ const body = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Afad Fath — Creative Developer",
+  title: "Afad Fath — Computer Enthusiast",
   description: "Portfolio of Afad Fath. Where paradox meets creativity.",
 };
 

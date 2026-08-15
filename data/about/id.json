@@ -1,7 +1,7 @@
 {
   "title": "TENTANG",
-  "heading": "Seorang developer yang membangun sesuatu",
-  "body": "Saya membangun berbagai hal untuk web — aplikasi fullstack dengan Next.js dan Node.js, REST API dengan PostgreSQL atau SQLite, serta tools kecil berbasis Python. Karya publik saya mencakup TalkUp, platform konseling online, web scraper, kalkulator multi-mode, dan portofolio ini.",
+  "heading": "Seorang penggemar komputer yang membangun sesuatu",
+  "body": "Saya penggemar komputer yang membangun berbagai hal untuk web — aplikasi fullstack dengan Next.js dan Node.js, REST API dengan PostgreSQL atau SQLite, serta tools kecil berbasis Python. Karya publik saya mencakup TalkUp, platform konseling online, web scraper, kalkulator multi-mode, dan portofolio ini.",
   "stats": [
     { "value": "5+", "label": "PENGALAMAN" },
     { "value": "12", "label": "REPO PUBLIK" },

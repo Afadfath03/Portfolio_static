@@ -21,7 +21,7 @@
     {
       "tag": "WEB",
       "name": "GILAR",
-      "desc": "Police scheduling management project.",
+      "desc": "Police scheduling management platform — built the FastAPI backend with PostgreSQL, SQLAlchemy, JWT authentication, and automatic API documentation (Swagger/ReDoc).",
       "image": "",
       "links": []
     },
@@ -31,13 +31,6 @@
       "desc": "Backend of TalkUp — online counseling platform for students and counselors (Node.js, Express, Sequelize, PostgreSQL).",
       "image": "",
       "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Backend" }]
-    },
-    {
-      "tag": "APP",
-      "name": "TalkUp Frontend",
-      "desc": "Frontend of TalkUp — online counseling platform for students and counselors.",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Frontend" }]
     },
     {
       "tag": "TOOL",

@@ -21,7 +21,7 @@
     {
       "tag": "WEB",
       "name": "GILAR",
-      "desc": "Proyek manajemen scheduling kepolisian.",
+      "desc": "Platform manajemen scheduling kepolisian — membangun backend FastAPI dengan PostgreSQL, SQLAlchemy, autentikasi JWT, dan dokumentasi API otomatis (Swagger/ReDoc).",
       "image": "",
       "links": []
     },
@@ -31,13 +31,6 @@
       "desc": "Backend TalkUp — platform konseling online untuk siswa dan konselor (Node.js, Express, Sequelize, PostgreSQL).",
       "image": "",
       "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Backend" }]
-    },
-    {
-      "tag": "APP",
-      "name": "TalkUp Frontend",
-      "desc": "Frontend TalkUp — platform konseling online untuk siswa dan konselor.",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Frontend" }]
     },
     {
       "tag": "TOOL",

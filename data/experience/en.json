@@ -3,7 +3,8 @@
   "heading": "Experience from projects and programs I've taken part in",
   "items": [
     { "role": "FULLSTACK DEVELOPER", "company": "PERSONAL PROJECT", "period": "2026 - NOW", "desc": "Built a bilingual portfolio platform with a self-hosted admin panel — Next.js frontend, API backend with authentication and CRUD, SQLite storage, Dockerized and deployed via GitHub Actions — plus a fully static version live at afadfath.net.", "tags": ["NEXT.JS", "TYPESCRIPT", "SQLITE", "DOCKER"] },
-    { "role": "FULLSTACK DEVELOPER", "company": "TALKUP", "period": "2025", "desc": "Developed an online counseling platform connecting students with counselors: REST API backend with Node.js, Express, Sequelize, and PostgreSQL with Swagger documentation, plus a React frontend.", "tags": ["NODE.JS", "EXPRESS", "POSTGRESQL", "REACT"] },
+    { "role": "BACKEND DEVELOPER", "company": "GILAR", "period": "2026", "desc": "Built the backend of a police scheduling management platform — REST API with FastAPI, PostgreSQL, and SQLAlchemy, secured with JWT authentication and documented with Swagger/ReDoc.", "tags": ["FASTAPI", "POSTGRESQL", "SQLALCHEMY", "JWT"] },
+    { "role": "BACKEND DEVELOPER", "company": "TALKUP", "period": "2025", "desc": "Developed the backend of an online counseling platform connecting students with counselors: REST API with Node.js, Express, Sequelize, and PostgreSQL, documented with Swagger.", "tags": ["NODE.JS", "EXPRESS", "SEQUELIZE", "POSTGRESQL"] },
     { "role": "MACHINE LEARNING STUDENT", "company": "BANGKIT ACADEMY", "period": "2025", "desc": "Machine Learning path of Bangkit — a career readiness program led by Google with GoTo and Traveloka under Indonesia's Kampus Merdeka initiative. Focused on machine learning and data science through an industry-designed curriculum, mentoring, and practical projects.", "tags": ["MACHINE LEARNING", "TENSORFLOW", "DATA SCIENCE"] }
   ]
 }
