@@ -3,24 +3,90 @@
   "items": [
     {
       "tag": "WEB",
-      "name": "PLACEHOLDER PROJECT",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "name": "Portfolio Static",
+      "desc": "Personal portfolio website built with Next.js as a fully static export, bilingual (English & Indonesian).",
       "image": "",
-      "links": [{ "label": "LIVE", "href": "#" }, { "label": "REPO", "href": "#" }]
+      "links": [
+        { "label": "LIVE", "href": "https://afadfath.net/" },
+        { "label": "REPO", "href": "https://github.com/Afadfath03/Portfolio_static" }
+      ]
+    },
+    {
+      "tag": "WEB",
+      "name": "Portfolio with Admin Panel",
+      "desc": "Bilingual portfolio platform with a Next.js frontend, API backend, authentication, CRUD content management, and SQLite storage.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Portfolio" }]
+    },
+    {
+      "tag": "WEB",
+      "name": "GILAR",
+      "desc": "Police scheduling management project.",
+      "image": "",
+      "links": []
     },
     {
       "tag": "APP",
-      "name": "PLACEHOLDER PROJECT",
-      "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+      "name": "TalkUp Backend",
+      "desc": "Backend of TalkUp — online counseling platform for SMK Telkom Purwokerto students and counselors (Node.js, Express, Sequelize, PostgreSQL).",
       "image": "",
-      "links": [{ "label": "LIVE", "href": "#" }, { "label": "REPO", "href": "#" }]
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Backend" }]
     },
     {
-      "tag": "EXPERIMENT",
-      "name": "PLACEHOLDER PROJECT",
-      "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "tag": "APP",
+      "name": "TalkUp Frontend",
+      "desc": "Frontend of TalkUp — online counseling platform for SMK Telkom Purwokerto students and counselors.",
       "image": "",
-      "links": [{ "label": "LIVE", "href": "#" }, { "label": "REPO", "href": "#" }]
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Frontend" }]
+    },
+    {
+      "tag": "TOOL",
+      "name": "Wikipedia Table Scraper",
+      "desc": "Node.js scraper that extracts tables from Wikipedia pages (episode lists) using Axios and Cheerio, outputting JSON or TXT.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper" }]
+    },
+    {
+      "tag": "TOOL",
+      "name": "Wikipedia Table Scraper (Python)",
+      "desc": "Python version of the Wikipedia table scraper using Requests and BeautifulSoup, outputting JSON or TXT.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper-Python" }]
+    },
+    {
+      "tag": "TOOL",
+      "name": "Simple File Sorter",
+      "desc": "Python script that organizes files into folders based on the first letter of their names, with configurable exclusions.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/simple-file-sorter" }]
+    },
+    {
+      "tag": "TOOL",
+      "name": "My Block List",
+      "desc": "Compilation of ad-block filter list links for redirecting to filter lists.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/My-Block-List" }]
+    },
+    {
+      "tag": "WEB",
+      "name": "Calculator (React)",
+      "desc": "Multi-mode calculator web app — Basic, Scientific, Programmer — built with React and Vite.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Calculator/tree/stack/vite-react" }]
+    },
+    {
+      "tag": "APP",
+      "name": "Calculator (TUI)",
+      "desc": "Multi-mode calculator TUI — Basic, Scientific, Programmer — built with Python and Textual.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Calculator/tree/stack/python" }]
+    },
+    {
+      "tag": "GAME",
+      "name": "2048",
+      "desc": "2048 game project (repository still empty, work in progress).",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/2048" }]
     }
   ]
 }
