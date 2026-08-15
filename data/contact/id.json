@@ -1,0 +1,9 @@
+{
+  "title": "KONTAK",
+  "heading": "Mari bangun sesuatu yang hebat bersama → Ikatan itu adalah Nexus.",
+  "links": [
+    { "label": "EMAIL", "value": "Afadfath03@gmail.com", "href": "mailto:Afadfath03@gmail.com" },
+    { "label": "GITHUB", "value": "@Afadfath03", "href": "https://github.com/Afadfath03" },
+    { "label": "LINKEDIN", "value": "in/afad-fath", "href": "https://www.linkedin.com/in/afad-fath-687004252" }
+  ]
+}

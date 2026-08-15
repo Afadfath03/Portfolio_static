@@ -1,0 +1,11 @@
+{
+  "title": "TENTANG",
+  "heading": "Seorang developer yang membangun dengan tujuan",
+  "body": "Saya adalah full-stack developer yang fokus membangun aplikasi web modern. Saya percaya dalam menulis kode yang bersih dan mudah dirawat serta membuat antarmuka yang fungsional dan indah.",
+  "stats": [
+    { "value": "5+", "label": "PROYEK" },
+    { "value": "1+", "label": "TAHUN" },
+    { "value": "3+", "label": "TECH STACK" }
+  ],
+  "image": ""
+}

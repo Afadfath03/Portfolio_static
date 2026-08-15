@@ -1,0 +1,14 @@
+{
+  "title": "STACK",
+  "heading": "Lorem ipsum dolor sit amet, consectetur",
+  "categories": [
+    { "name": "FRONTEND", "icon": "square", "items": ["React", "Next.js", "TypeScript", "HTML/CSS", "Tailwind"] },
+    { "name": "BACKEND", "icon": "circle", "items": ["Node.js", "Python", "SQLite", "PostgreSQL", "REST API"] },
+    { "name": "TOOLS", "icon": "diamond", "items": ["Git", "Docker", "Linux", "Figma", "VS Code"] },
+    { "name": "DESIGN", "icon": "ring", "items": ["Figma", "Adobe XD", "Framer", "Canva", "CSS Animations"] },
+    { "name": "DEVOPS", "icon": "hexagon", "items": ["Docker", "GitHub Actions", "Nginx", "Vercel", "Linux"] },
+    { "name": "TESTING", "icon": "triangle", "items": ["Jest", "Playwright", "Cypress", "React Testing Library"] },
+    { "name": "DATABASE", "icon": "pill", "items": ["MongoDB", "Redis", "Firebase", "Supabase", "Prisma"] },
+    { "name": "AI", "icon": "star", "items": ["OpenAI", "LangChain", "HuggingFace", "TensorFlow", "PyTorch"] }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "ABOUT",
+  "heading": "A developer who builds with purpose",
+  "body": "I'm a full-stack developer focused on building modern web applications. I believe in writing clean, maintainable code and creating interfaces that are both functional and beautiful.",
+  "stats": [
+    { "value": "5+", "label": "PROJECTS" },
+    { "value": "1+", "label": "YEARS" },
+    { "value": "3+", "label": "TECH STACKS" }
+  ],
+  "image": ""
+}

@@ -1,0 +1,26 @@
+{
+  "title": "KARYA",
+  "items": [
+    {
+      "tag": "WEB",
+      "name": "PLACEHOLDER PROJECT",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "image": "",
+      "links": [{ "label": "LIVE", "href": "#" }, { "label": "REPO", "href": "#" }]
+    },
+    {
+      "tag": "APP",
+      "name": "PLACEHOLDER PROJECT",
+      "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+      "image": "",
+      "links": [{ "label": "LIVE", "href": "#" }, { "label": "REPO", "href": "#" }]
+    },
+    {
+      "tag": "EKSPERIMEN",
+      "name": "PLACEHOLDER PROJECT",
+      "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "image": "",
+      "links": [{ "label": "LIVE", "href": "#" }, { "label": "REPO", "href": "#" }]
+    }
+  ]
+}

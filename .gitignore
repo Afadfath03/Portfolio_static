@@ -1,0 +1,39 @@
+# Secrets and local configuration
+.env*
+*.local
+.npmrc
+.yarnrc*
+.pnpmfile*
+
+# Credentials and keys
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secrets*
+
+# Dependencies and generated output
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Databases, dumps, and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+*.backup
+
+# Logs and editor files
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo

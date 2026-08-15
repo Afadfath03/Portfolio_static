@@ -1,0 +1,8 @@
+{
+  "title": "PENGALAMAN",
+  "heading": "Lorem ipsum dolor sit amet, consectetur",
+  "items": [
+    { "role": "ROLE", "company": "COMPANY", "period": "2024 - NOW", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.", "tags": ["TAG1", "TAG2"] },
+    { "role": "ROLE", "company": "COMPANY", "period": "2023 - 2024", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.", "tags": ["TAG1", "TAG2"] }
+  ]
+}
