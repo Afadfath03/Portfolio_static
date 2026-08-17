@@ -9,10 +9,13 @@ export default function Works({ t }: Props) {
     <section className="section is-visible">
       <h2 className="sec-title reveal">{t.works.title}</h2>
       <div className="works-grid">
-        {t.works.items.map((w, i) => (
+        {[...t.works.items].sort((a, b) => b.no - a.no).map((w, i) => (
           <article className="work-card reveal" key={i}>
             {w.image && <img className="work-image" src={w.image} alt={w.name} />}
-            <span className="work-tag">{w.tag}</span>
+            <div className="work-badges">
+              <span className="work-tag">{w.tag}</span>
+              <span className={`work-type work-type-${w.type}`} />
+            </div>
             <h3>{w.name}</h3>
             <p>{w.desc}</p>
             {w.links?.some((l) => l.href) && (

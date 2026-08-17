@@ -1,7 +1,7 @@
 {
   "title": "TENTANG",
   "heading": "Seorang penggemar komputer yang membangun sesuatu",
-  "body": "Saya penggemar komputer yang membangun dan menguji berbagai hal untuk web — aplikasi fullstack dengan Next.js dan Node.js, REST API dengan PostgreSQL atau SQLite, serta quality assurance dengan Playwright dan Selenium. Pekerjaan saya mencakup backend development, test automation, dan tools kecil berbasis Python.",
+  "body": "Saya penggemar komputer yang membangun dan menguji berbagai hal untuk web. Saya mengerjakan aplikasi fullstack dengan Next.js dan Node.js, REST API dengan PostgreSQL atau SQLite, serta quality assurance dengan Playwright dan Selenium. Pekerjaan saya mencakup backend development, test automation, dan tools kecil berbasis Python.",
   "stats": [
     { "value": "6+", "label": "PENGALAMAN" },
     { "value": "12", "label": "REPO PUBLIK" }

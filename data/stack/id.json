@@ -1,6 +1,6 @@
 {
   "title": "TECH STACK",
-  "heading": "Teknologi yang saya gunakan di proyek-proyek saya",
+  "heading": "Tools dan teknologi yang saya gunakan",
   "categories": [
     { "name": "FRONTEND", "icon": "square", "items": ["React", "Next.js", "TypeScript", "Vite", "Tailwind CSS", "HTML/CSS"] },
     { "name": "BACKEND", "icon": "circle", "items": ["Node.js", "Express", "Python", "FastAPI", "Sequelize", "SQLAlchemy"] },

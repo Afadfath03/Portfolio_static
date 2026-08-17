@@ -1,7 +1,7 @@
 export type Lang = "en" | "id";
-export type SectionId = "home" | "about" | "stack" | "experience" | "education" | "works" | "contact";
+export type SectionId = "home" | "about" | "services" | "stack" | "experience" | "education" | "works" | "contact";
 
-export const sectionIds: SectionId[] = ["home", "about", "stack", "experience", "education", "works", "contact"];
+export const sectionIds: SectionId[] = ["home", "about", "services", "stack", "experience", "education", "works", "contact"];
 
 const langListeners = new Set<() => void>();
 let currentLang: Lang = "en";

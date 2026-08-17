@@ -21,7 +21,7 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Afad Fath — Computer Enthusiast",
+  title: "Afad Fath",
   description: "Portfolio of Afad Fath. Where paradox meets creativity.",
 };
 

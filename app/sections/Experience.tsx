@@ -10,7 +10,7 @@ export default function Experience({ t }: Props) {
       <h2 className="sec-title reveal">{t.experience.title}</h2>
       <p className="exp-heading reveal">{t.experience.heading}</p>
       <div className="exp-list reveal">
-        {t.experience.items.map((item, i) => (
+        {[...t.experience.items].sort((a, b) => b.no - a.no).map((item, i) => (
           <article className="exp-card" key={i}>
             <div className="exp-top">
               <span className="exp-period">{item.period}</span>

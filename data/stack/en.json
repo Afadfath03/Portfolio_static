@@ -1,6 +1,6 @@
 {
   "title": "STACK",
-  "heading": "Technologies I use across my projects",
+  "heading": "Tools and technologies I use",
   "categories": [
     { "name": "FRONTEND", "icon": "square", "items": ["React", "Next.js", "TypeScript", "Vite", "Tailwind CSS", "HTML/CSS"] },
     { "name": "BACKEND", "icon": "circle", "items": ["Node.js", "Express", "Python", "FastAPI", "Sequelize", "SQLAlchemy"] },

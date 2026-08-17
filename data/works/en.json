@@ -2,14 +2,108 @@
   "title": "WORKS",
   "items": [
     {
+      "no": 0,
+      "tag": "GAME",
+      "type": "personal",
+      "name": "2048",
+      "desc": "2048 game project (repository still empty, work in progress).",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/2048" }]
+    },
+    {
+      "no": 1,
+      "tag": "APP",
+      "type": "personal",
+      "name": "Calculator (TUI)",
+      "desc": "Multi-mode calculator TUI (Basic, Scientific, Programmer) built with Python and Textual.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Calculator/tree/stack/python" }]
+    },
+    {
+      "no": 2,
       "tag": "WEB",
+      "type": "personal",
+      "name": "Calculator (React)",
+      "desc": "Multi-mode calculator web app (Basic, Scientific, Programmer) built with React and Vite.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Calculator/tree/stack/vite-react" }]
+    },
+    {
+      "no": 3,
+      "tag": "TOOL",
+      "type": "personal",
+      "name": "Wikipedia Table Scraper (Python)",
+      "desc": "Python version of the Wikipedia table scraper using Requests and BeautifulSoup, outputting JSON or TXT.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper-Python" }]
+    },
+    {
+      "no": 4,
+      "tag": "TOOL",
+      "type": "personal",
+      "name": "Wikipedia Table Scraper",
+      "desc": "Node.js scraper that extracts tables from Wikipedia pages (episode lists) using Axios and Cheerio, outputting JSON or TXT.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper" }]
+    },
+    {
+      "no": 5,
+      "tag": "TOOL",
+      "type": "personal",
+      "name": "Simple File Sorter",
+      "desc": "Python script that organizes files into folders based on the first letter of their names, with configurable exclusions.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/simple-file-sorter" }]
+    },
+    {
+      "no": 6,
+      "tag": "TOOL",
+      "type": "personal",
+      "name": "My Block List",
+      "desc": "Compilation of ad-block filter list links for redirecting to filter lists.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/My-Block-List" }]
+    },
+    {
+      "no": 7,
+      "tag": "APP",
+      "type": "work",
+      "name": "TalkUp Backend",
+      "desc": "Backend of TalkUp, an online counseling platform for students and counselors (Node.js, Express, Sequelize, PostgreSQL).",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Backend" }]
+    },
+    {
+      "no": 8,
+      "tag": "WEB",
+      "type": "work",
+      "name": "GILAR",
+      "desc": "Police scheduling management platform. Built the FastAPI backend with PostgreSQL, SQLAlchemy, JWT authentication, and automatic API documentation (Swagger/ReDoc).",
+      "image": "",
+      "links": []
+    },
+    {
+      "no": 9,
+      "tag": "WEB",
+      "type": "work",
       "name": "OpsGuide",
-      "desc": "Cloud automation platform — performed functional and regression testing, cross-browser validation, and API testing. Automated regression suites with Playwright.",
+      "desc": "Cloud automation platform. Performed functional and regression testing, cross-browser validation, and API testing. Automated regression suites with Playwright.",
       "image": "",
       "links": [{ "label": "LIVE", "href": "https://app.opsguide.cloud" }]
     },
     {
+      "no": 10,
       "tag": "WEB",
+      "type": "personal",
+      "name": "Portfolio with Admin Panel",
+      "desc": "Bilingual portfolio platform with a Next.js frontend, API backend, authentication, CRUD content management, and SQLite storage.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Portfolio" }]
+    },
+    {
+      "no": 11,
+      "tag": "WEB",
+      "type": "personal",
       "name": "Portfolio Static",
       "desc": "Personal portfolio website built with Next.js as a fully static export, bilingual (English & Indonesian).",
       "image": "",
@@ -17,76 +111,6 @@
         { "label": "LIVE", "href": "https://afadfath.net/" },
         { "label": "REPO", "href": "https://github.com/Afadfath03/Portfolio_static" }
       ]
-    },
-    {
-      "tag": "WEB",
-      "name": "Portfolio with Admin Panel",
-      "desc": "Bilingual portfolio platform with a Next.js frontend, API backend, authentication, CRUD content management, and SQLite storage.",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Portfolio" }]
-    },
-    {
-      "tag": "WEB",
-      "name": "GILAR",
-      "desc": "Police scheduling management platform — built the FastAPI backend with PostgreSQL, SQLAlchemy, JWT authentication, and automatic API documentation (Swagger/ReDoc).",
-      "image": "",
-      "links": []
-    },
-    {
-      "tag": "APP",
-      "name": "TalkUp Backend",
-      "desc": "Backend of TalkUp — online counseling platform for students and counselors (Node.js, Express, Sequelize, PostgreSQL).",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Backend" }]
-    },
-    {
-      "tag": "TOOL",
-      "name": "Wikipedia Table Scraper",
-      "desc": "Node.js scraper that extracts tables from Wikipedia pages (episode lists) using Axios and Cheerio, outputting JSON or TXT.",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper" }]
-    },
-    {
-      "tag": "TOOL",
-      "name": "Wikipedia Table Scraper (Python)",
-      "desc": "Python version of the Wikipedia table scraper using Requests and BeautifulSoup, outputting JSON or TXT.",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper-Python" }]
-    },
-    {
-      "tag": "TOOL",
-      "name": "Simple File Sorter",
-      "desc": "Python script that organizes files into folders based on the first letter of their names, with configurable exclusions.",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/simple-file-sorter" }]
-    },
-    {
-      "tag": "TOOL",
-      "name": "My Block List",
-      "desc": "Compilation of ad-block filter list links for redirecting to filter lists.",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/My-Block-List" }]
-    },
-    {
-      "tag": "WEB",
-      "name": "Calculator (React)",
-      "desc": "Multi-mode calculator web app — Basic, Scientific, Programmer — built with React and Vite.",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Calculator/tree/stack/vite-react" }]
-    },
-    {
-      "tag": "APP",
-      "name": "Calculator (TUI)",
-      "desc": "Multi-mode calculator TUI — Basic, Scientific, Programmer — built with Python and Textual.",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Calculator/tree/stack/python" }]
-    },
-    {
-      "tag": "GAME",
-      "name": "2048",
-      "desc": "2048 game project (repository still empty, work in progress).",
-      "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/2048" }]
     }
   ]
 }

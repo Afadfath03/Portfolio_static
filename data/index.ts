@@ -4,6 +4,8 @@ import heroEn from "./hero/en.json";
 import heroId from "./hero/id.json";
 import aboutEn from "./about/en.json";
 import aboutId from "./about/id.json";
+import servicesEn from "./services/en.json";
+import servicesId from "./services/id.json";
 import stackEn from "./stack/en.json";
 import stackId from "./stack/id.json";
 import experienceEn from "./experience/en.json";
@@ -19,6 +21,7 @@ const en = {
   nav: navEn,
   hero: heroEn,
   about: aboutEn,
+  services: servicesEn,
   stack: stackEn,
   experience: experienceEn,
   education: educationEn,
@@ -32,6 +35,7 @@ const id: Dict = {
   nav: navId,
   hero: heroId,
   about: aboutId,
+  services: servicesId,
   stack: stackId,
   experience: experienceId,
   education: educationId,

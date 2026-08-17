@@ -5,6 +5,7 @@ import type { Dict } from "@/data";
 import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
+import Services from "./sections/Services";
 import Stack from "./sections/Stack";
 import Experience from "./sections/Experience";
 import Education from "./sections/Education";
@@ -103,6 +104,7 @@ export default function PageClient({ initial }: Props) {
             <div className={paneClass}>
               {active === "home" && <Hero t={tContent} />}
               {active === "about" && <About t={tContent} />}
+              {active === "services" && <Services t={tContent} />}
               {active === "stack" && <Stack t={tContent} />}
               {active === "experience" && <Experience t={tContent} />}
               {active === "education" && <Education t={tContent} />}

@@ -294,6 +294,41 @@ a {
   opacity: 0.7;
 }
 
+/* ---------- services ---------- */
+
+.services-heading {
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.services-card {
+  background: var(--panel);
+  padding: 1.5rem 1.3rem 1.7rem;
+  border-top: 3px solid var(--violet);
+}
+
+.services-name {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  letter-spacing: 0.15em;
+  padding-bottom: 0.3em;
+  border-bottom: 3px solid rgba(250, 204, 21, 0.3);
+  margin-bottom: 1rem;
+}
+
+.services-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 /* ---------- stack ---------- */
 
 .stack-heading {
@@ -408,6 +443,8 @@ a {
 .stack-cat-name {
   font-size: 0.85rem;
   letter-spacing: 0.1em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid rgba(250, 204, 21, 0.3);
   margin-bottom: 0.75rem;
 }
 
@@ -547,6 +584,8 @@ a {
   transition: transform 0.2s;
   overflow-wrap: break-word;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .work-image {
@@ -565,6 +604,13 @@ a {
   border-top-color: var(--acid);
 }
 
+.work-badges {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
 .work-tag {
   display: inline-block;
   font-family: var(--font-display);
@@ -574,12 +620,29 @@ a {
   color: var(--ink);
   padding: 0.25em 0.7em;
   transform: skewX(-10deg);
-  margin-bottom: 0.8rem;
+}
+
+.work-type {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.work-type-personal {
+  background: transparent;
+  border: 2px solid var(--violet);
+}
+
+.work-type-work {
+  background: var(--violet);
 }
 
 .work-card h3 {
   font-family: var(--font-display);
   font-size: 1.35rem;
+  padding-bottom: 0.3em;
+  border-bottom: 3px solid rgba(250, 204, 21, 0.3);
   margin-bottom: 0.5rem;
 }
 
@@ -592,7 +655,8 @@ a {
 .work-links {
   display: flex;
   gap: 0.6rem;
-  margin-top: 1rem;
+  margin-top: auto;
+  padding-top: 1rem;
 }
 
 .work-link {

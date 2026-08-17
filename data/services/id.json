@@ -1,0 +1,26 @@
+{
+  "title": "LAYANAN",
+  "heading": "Apa yang bisa saya tawarkan",
+  "items": [
+    {
+      "name": "WEB DEVELOPMENT",
+      "icon": "square",
+      "tools": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vite"]
+    },
+    {
+      "name": "BACKEND DEVELOPMENT",
+      "icon": "circle",
+      "tools": ["Node.js", "Express", "Python", "FastAPI", "PostgreSQL", "SQLAlchemy"]
+    },
+    {
+      "name": "QUALITY ASSURANCE",
+      "icon": "ring",
+      "tools": ["Playwright", "Selenium", "Manual Testing", "Test Automation", "API Testing"]
+    },
+    {
+      "name": "API & DOCUMENTATION",
+      "icon": "cross",
+      "tools": ["Swagger", "REST API", "API Testing"]
+    }
+  ]
+}
