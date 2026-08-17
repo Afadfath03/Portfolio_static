@@ -154,6 +154,9 @@ a {
   color: var(--bone);
   padding: 0.08em 0.35em;
   clip-path: polygon(0 6%, 98% 0, 100% 88%, 2% 100%);
+  white-space: nowrap;
+  max-width: 88vw;
+  overflow: hidden;
 }
 
 /* ---------- hero ---------- */
@@ -219,11 +222,11 @@ a {
 
 /* line2 disetel lebih kecil agar total lebar visual ≈ line1 */
 .hero-name .line1 {
-  font-size: clamp(2.2rem, 13vw, min(10.5rem, 20dvh));
+  font-size: clamp(2.2rem, 13vw, min(10.5rem, 18dvh));
 }
 
 .hero-name .line2 {
-  font-size: clamp(1.4rem, 8.1vw, min(6.5rem, 12dvh));
+  font-size: clamp(1.4rem, 8.1vw, min(6.5rem, 11dvh));
 }
 
 .hero-tag {
@@ -248,6 +251,8 @@ a {
   transform: rotate(-1deg);
   clip-path: polygon(0 3%, 100% 0, 99% 97%, 1% 100%);
   border-left: 10px solid var(--acid);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .about-image {
@@ -410,6 +415,8 @@ a {
   background: var(--panel);
   padding: 1.5rem 1.3rem 1.7rem;
   border-left: 3px solid var(--violet);
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 .exp-top {
@@ -466,6 +473,8 @@ a {
   background: var(--panel);
   padding: 1.5rem 1.3rem 1.7rem;
   border-left: 3px solid var(--acid);
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 .edu-year {
@@ -502,6 +511,8 @@ a {
   clip-path: polygon(0 4%, 100% 0, 98% 96%, 2% 100%);
   border-top: 8px solid var(--violet);
   transition: transform 0.2s;
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 .work-image {
@@ -613,17 +624,22 @@ a {
   border-bottom: 2px dashed rgba(245, 240, 235, 0.15);
   padding-bottom: 0.45rem;
   font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .cc-list span {
   font-family: var(--font-display);
   font-size: 0.8em;
   letter-spacing: 0.15em;
+  flex-shrink: 0;
 }
 
 .cc-list a {
   text-decoration: none;
   font-weight: 600;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .cc-list a:hover {
@@ -842,18 +858,19 @@ a {
     width: auto;
     height: auto;
     flex-direction: row;
-    justify-content: flex-start;
-    gap: 8px;
-    padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
-    overflow-x: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px 6px;
+    padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
     background: var(--ink);
     border-top: 3px solid var(--panel);
   }
 
   .nav-item {
-    font-size: clamp(0.85rem, 4vw, 1.1rem);
+    font-size: clamp(0.7rem, 3.2vw, 1rem);
     white-space: nowrap;
     width: auto;
+    padding: 0.2em 0.45em 0.2em 0.6em;
   }
 
   .nav-item.active {
@@ -867,7 +884,7 @@ a {
   .nav-glide { display: none; }
 
   .section {
-    padding-bottom: 120px;
+    padding-bottom: 140px;
   }
 
 
@@ -880,6 +897,41 @@ a {
   .cc-list li {
     flex-direction: column;
     gap: 0.15rem;
+  }
+}
+
+/* ---------- ultrawide ---------- */
+
+@media (min-width: 2560px) {
+  .nav {
+    width: 340px;
+    gap: clamp(16px, 2.5vh, 28px);
+    padding-left: clamp(24px, 2.5vw, 48px);
+  }
+
+  .nav-item {
+    font-size: clamp(1.4rem, 1.8vw, 2.2rem);
+  }
+
+  .section {
+    padding: clamp(60px, 12vh, 160px) clamp(48px, 8vw, 140px);
+  }
+
+  .hero-name .line1 {
+    font-size: clamp(2.4rem, 11vw, min(12rem, 20dvh));
+  }
+
+  .hero-name .line2 {
+    font-size: clamp(1.5rem, 7vw, min(7.5rem, 12dvh));
+  }
+
+  .hero-sub {
+    max-width: 52ch;
+    font-size: clamp(1rem, 1.2vw, 1.3rem);
+  }
+
+  .sec-title {
+    font-size: clamp(3rem, 6vw, 6.5rem);
   }
 }
 

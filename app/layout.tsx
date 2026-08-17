@@ -6,14 +6,19 @@ import "./globals.css";
 
 const display = Archivo_Black({
   weight: "400",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   variable: "--font-archivo",
 });
 
 const body = Space_Grotesk({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   variable: "--font-grotesk",
 });
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   title: "Afad Fath — Computer Enthusiast",
