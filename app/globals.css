@@ -869,24 +869,35 @@ a {
     z-index: 40;
     width: auto;
     height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: stretch;
     gap: 5px 6px;
     padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
     background: var(--ink);
-    border-top: 3px solid var(--panel);
+    border-top: 3px solid var(--violet);
+    container-type: unset;
   }
 
   .nav-item {
     font-size: clamp(0.7rem, 3.2vw, 1rem);
     white-space: nowrap;
     width: auto;
-    padding: 0.2em 0.45em 0.2em 0.6em;
+    padding: 0.35em 0.45em;
+    transform: none;
+    clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+    text-align: center;
+  }
+
+  .nav-item > span {
+    transform: none;
   }
 
   .nav-item.active {
-    transform: skewX(-10deg) scale(1.08);
+    transform: none;
+    background: var(--acid);
+    color: var(--ink);
+    border-color: var(--acid);
   }
 
   .nav-item.active::before {
