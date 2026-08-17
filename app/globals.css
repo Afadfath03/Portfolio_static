@@ -344,6 +344,40 @@ a {
   border-radius: 50%;
 }
 
+.stack-icon-cross {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.stack-icon-cross::before,
+.stack-icon-cross::after {
+  content: "";
+  position: absolute;
+  background: var(--acid);
+  border-radius: 2px;
+}
+.stack-icon-cross::before {
+  width: 100%;
+  height: 6px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.stack-icon-cross::after {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.stack-icon-dot {
+  width: 16px;
+  height: 16px;
+  background: var(--violet);
+  border-radius: 50%;
+}
+
 .stack-icon-hexagon {
   width: 32px;
   height: 32px;
