@@ -7,6 +7,7 @@
     { "name": "DATABASE", "icon": "pill", "items": ["PostgreSQL", "MySQL", "MariaDB", "MongoDB", "SQLite"] },
     { "name": "TOOLS", "icon": "diamond", "items": ["Git", "Axios", "Cheerio", "BeautifulSoup", "Swagger"] },
     { "name": "DEVOPS", "icon": "hexagon", "items": ["Docker", "GitHub Actions", "Vercel", "Linux"] },
-    { "name": "MACHINE LEARNING", "icon": "star", "items": ["Python", "TensorFlow", "Data Science"] }
+    { "name": "MACHINE LEARNING", "icon": "star", "items": ["Python", "TensorFlow", "Data Science"] },
+    { "name": "TESTING", "icon": "ring", "items": ["Playwright", "Selenium", "Manual Testing", "Test Cases", "Google Docs", "Google Sheets", "Notion"] }
   ]
 }

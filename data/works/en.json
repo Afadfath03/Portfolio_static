@@ -3,6 +3,13 @@
   "items": [
     {
       "tag": "WEB",
+      "name": "OpsGuide",
+      "desc": "Cloud automation platform — performed functional and regression testing, cross-browser validation, and API testing. Automated regression suites with Playwright.",
+      "image": "",
+      "links": [{ "label": "LIVE", "href": "https://app.opsguide.cloud" }]
+    },
+    {
+      "tag": "WEB",
       "name": "Portfolio Static",
       "desc": "Personal portfolio website built with Next.js as a fully static export, bilingual (English & Indonesian).",
       "image": "",

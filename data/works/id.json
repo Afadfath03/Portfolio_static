@@ -3,6 +3,13 @@
   "items": [
     {
       "tag": "WEB",
+      "name": "OpsGuide",
+      "desc": "Platform automasi cloud — melakukan functional dan regression testing, validasi cross-browser, serta API testing. Mengotomasi regression suite dengan Playwright.",
+      "image": "",
+      "links": [{ "label": "LIVE", "href": "https://app.opsguide.cloud" }]
+    },
+    {
+      "tag": "WEB",
       "name": "Portfolio Static",
       "desc": "Situs portofolio pribadi dibangun dengan Next.js sebagai static export penuh, dwibahasa (Inggris & Indonesia).",
       "image": "",

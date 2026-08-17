@@ -1,11 +1,10 @@
 {
   "title": "ABOUT",
   "heading": "A computer enthusiast who builds things",
-  "body": "I am a computer enthusiast who builds things for the web — fullstack applications with Next.js and Node.js, REST APIs backed by PostgreSQL or SQLite, and small Python tools. My public work includes TalkUp, an online counseling platform, web scrapers, multi-mode calculators, and this portfolio.",
+  "body": "I am a computer enthusiast who builds and tests things for the web — fullstack applications with Next.js and Node.js, REST APIs backed by PostgreSQL or SQLite, and quality assurance with Playwright and Selenium. My work spans backend development, test automation, and small Python tools.",
   "stats": [
-    { "value": "5+", "label": "EXPERIENCES" },
-    { "value": "12", "label": "PUBLIC REPOS" },
-    { "value": "2019", "label": "ON GITHUB" }
+    { "value": "6+", "label": "EXPERIENCES" },
+    { "value": "12", "label": "PUBLIC REPOS" }
   ],
   "image": ""
 }
