@@ -851,12 +851,22 @@ a {
     flex-direction: column;
   }
 
+  .lang-fade-all {
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100dvh;
+  }
+
+  .content {
+    order: 0;
+    overflow-y: visible;
+  }
+
   .nav {
-    position: fixed;
-    top: auto;
+    order: 1;
+    position: sticky;
     bottom: 0;
-    left: 0;
-    right: 0;
+    z-index: 40;
     width: auto;
     height: auto;
     flex-direction: row;
@@ -886,7 +896,7 @@ a {
   .nav-glide { display: none; }
 
   .section {
-    padding-bottom: 140px;
+    padding-bottom: 24px;
   }
 
 
