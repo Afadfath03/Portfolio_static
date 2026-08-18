@@ -4,7 +4,7 @@
   "body": "I am a computer enthusiast who builds and tests things for the web. I work with fullstack applications using Next.js and Node.js, REST APIs backed by PostgreSQL or SQLite, and quality assurance with Playwright and Selenium. My work spans backend development, test automation, and small Python tools.",
   "stats": [
     { "value": "6+", "label": "EXPERIENCES" },
-    { "value": "12", "label": "PUBLIC REPOS" }
+    { "value": "13", "label": "PUBLIC REPOS" }
   ],
   "image": ""
 }

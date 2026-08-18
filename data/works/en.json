@@ -53,7 +53,16 @@
       "name": "Simple File Sorter",
       "desc": "Python script that organizes files into folders based on the first letter of their names, with configurable exclusions.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/simple-file-sorter" }]
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/simple-file-sorter" }      ]
+    },
+    {
+      "no": 7,
+      "tag": "ML",
+      "type": "personal",
+      "name": "Eepy Machine Learning",
+      "desc": "Machine learning project exploring sleep health and lifestyle data with Jupyter notebooks, Pandas, and scikit-learn.",
+      "image": "",
+      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Eepy_MachineLearning" }]
     },
     {
       "no": 6,
@@ -65,13 +74,16 @@
       "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/My-Block-List" }]
     },
     {
-      "no": 7,
+      "no": 8,
       "tag": "APP",
       "type": "work",
-      "name": "TalkUp Backend",
-      "desc": "Backend of TalkUp, an online counseling platform for students and counselors (Node.js, Express, Sequelize, PostgreSQL).",
+      "name": "TalkUp",
+      "desc": "Backend and frontend of TalkUp, an online counseling platform for students and counselors. Backend: Node.js, Express, Sequelize, PostgreSQL. Frontend: React, Vite.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/fork-talkup_Backend" }]
+      "links": [
+        { "label": "BACKEND", "href": "https://github.com/Afadfath03/fork-talkup_Backend" },
+        { "label": "FRONTEND", "href": "https://github.com/Afadfath03/fork-talkup_Frontend" }
+      ]
     },
     {
       "no": 8,
