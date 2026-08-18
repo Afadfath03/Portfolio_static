@@ -6,7 +6,7 @@
       "tag": "GAME",
       "type": "personal",
       "name": "2048",
-      "desc": "2048 game project (repository still empty, work in progress).",
+      "desc": "2048 sliding tile game built with React, TypeScript, and Vite. Includes game logic with unit tests, Board and Tile components.",
       "image": "",
       "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/2048" }]
     },

@@ -6,7 +6,7 @@
       "tag": "GAME",
       "type": "personal",
       "name": "2048",
-      "desc": "Proyek game 2048 (repo masih kosong, dalam pengembangan).",
+      "desc": "Game geser 2048 dibangun dengan React, TypeScript, dan Vite. Dilengkapi logika game dengan unit test, komponen Board dan Tile.",
       "image": "",
       "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/2048" }]
     },
