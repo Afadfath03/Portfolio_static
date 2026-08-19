@@ -23,8 +23,8 @@ import {
 
 const T_EXIT = 180;
 const T_ENTER = 280;
-const T_LANG_EXIT = 200;
-const T_LANG_ENTER = 300;
+const T_LANG_EXIT = 350;
+const T_LANG_ENTER = 450;
 
 type Phase = "idle" | "exit" | "enter";
 type Dir = "cw" | "ccw";

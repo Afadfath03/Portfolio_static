@@ -11,13 +11,13 @@ export default function Hero({ t }: Props) {
       {t.hero.image && (
         <img className="hero-image reveal" src={t.hero.image} alt="Profile" />
       )}
-      <p className="hero-greet reveal">{t.hero.greeting}</p>
+      <p className="hero-greet reveal"><span className="lang-text">{t.hero.greeting}</span></p>
       <h1 className="hero-name reveal">
         <span className="line1">AFAD FATH</span>
         <span className="line2">MUSYAROF HALIM</span>
       </h1>
-      <p className="hero-tag reveal">{t.hero.tagline}</p>
-      <p className="hero-sub reveal">{t.hero.sub}</p>
+      <p className="hero-tag reveal"><span className="lang-text">{t.hero.tagline}</span></p>
+      <p className="hero-sub reveal"><span className="lang-text">{t.hero.sub}</span></p>
     </section>
   );
 }

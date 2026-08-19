@@ -108,14 +108,14 @@ a {
 
 @keyframes lang-exit {
   to {
-    transform: translateX(40px);
+    clip-path: inset(0 0 0 100%);
     opacity: 0;
   }
 }
 
 @keyframes lang-enter {
   from {
-    transform: translateX(-40px);
+    clip-path: inset(0 100% 0 0);
     opacity: 0;
   }
 }
@@ -757,16 +757,22 @@ a {
   display: flex;
   flex: 1;
   min-width: 0;
-  will-change: transform, opacity;
 }
 
-.lang-fade-all.lang-exit {
-  animation: lang-exit 200ms cubic-bezier(0.85, 0, 0.15, 1) forwards;
+.lang-text {
+  display: inline-block;
+  max-width: 100%;
+  clip-path: inset(0 0 0 0);
+  will-change: clip-path, opacity;
+}
+
+.lang-fade-all.lang-exit .lang-text {
+  animation: lang-exit 350ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
   pointer-events: none;
 }
 
-.lang-fade-all.lang-enter {
-  animation: lang-enter 300ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+.lang-fade-all.lang-enter .lang-text {
+  animation: lang-enter 450ms cubic-bezier(0, 0, 0.2, 1) forwards;
 }
 
 .content {

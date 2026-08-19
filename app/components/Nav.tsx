@@ -52,7 +52,7 @@ export default function Nav({ t, active, onNavigate, indicator }: Props) {
           onClick={() => onNavigate(id)}
           aria-current={active === id ? "true" : undefined}
         >
-          <span>{t.nav[id]}</span>
+          <span className="lang-text">{t.nav[id]}</span>
         </button>
       ))}
     </nav>

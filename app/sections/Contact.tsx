@@ -7,15 +7,15 @@ type Props = {
 export default function Contact({ t }: Props) {
   return (
     <section className="section is-visible">
-      <h2 className="sec-title reveal">{t.contact.title}</h2>
+      <h2 className="sec-title reveal"><span className="lang-text">{t.contact.title}</span></h2>
       <div className="cc-card reveal">
-        <p className="cc-head">{t.contact.heading}</p>
+        <p className="cc-head"><span className="lang-text">{t.contact.heading}</span></p>
         <ul className="cc-list">
           {t.contact.links.map((l) => (
             <li key={l.label}>
-              <span>{l.label}</span>
+              <span className="lang-text">{l.label}</span>
               <a href={l.href} target="_blank" rel="noopener noreferrer">
-                {l.value}
+                <span className="lang-text">{l.value}</span>
               </a>
             </li>
           ))}
