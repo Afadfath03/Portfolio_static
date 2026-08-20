@@ -12,10 +12,10 @@ export default function Education({ t }: Props) {
       <div className="edu-list reveal">
         {[...t.education.items].sort((a, b) => b.no - a.no).map((item, i) => (
           <article className="edu-card" key={i}>
-            <span className="edu-year"><span className="lang-text">{item.year}</span></span>
-            <h3 className="edu-degree"><span className="lang-text">{item.degree}</span></h3>
-            <p className="edu-school"><span className="lang-text">{item.school}</span></p>
-            <p><span className="lang-text">{item.desc}</span></p>
+            <span className="edu-year">{item.year}</span>
+            <h3 className="edu-degree">{item.degree}</h3>
+            <p className="edu-school">{item.school}</p>
+            <p>{item.desc}</p>
           </article>
         ))}
       </div>

@@ -8,7 +8,7 @@
       "name": "2048",
       "desc": "Game geser 2048 dibangun dengan React, TypeScript, dan Vite. Dilengkapi logika game dengan unit test, komponen Board dan Tile.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/2048" }]
+      "links": [{ "label": "KODE", "href": "https://github.com/Afadfath03/2048" }]
     },
     {
       "no": 1,
@@ -17,7 +17,7 @@
       "name": "Calculator (TUI)",
       "desc": "Kalkulator TUI multi-mode (Basic, Scientific, Programmer) dibuat dengan Python dan Textual.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Calculator/tree/stack/python" }]
+      "links": [{ "label": "KODE", "href": "https://github.com/Afadfath03/Calculator/tree/stack/python" }]
     },
     {
       "no": 2,
@@ -26,7 +26,7 @@
       "name": "Calculator (React)",
       "desc": "Kalkulator web multi-mode (Basic, Scientific, Programmer) dibuat dengan React dan Vite.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Calculator/tree/stack/vite-react" }]
+      "links": [{ "label": "KODE", "href": "https://github.com/Afadfath03/Calculator/tree/stack/vite-react" }]
     },
     {
       "no": 3,
@@ -35,7 +35,7 @@
       "name": "Wikipedia Table Scraper (Python)",
       "desc": "Versi Python dari scraper tabel Wikipedia menggunakan Requests dan BeautifulSoup, output JSON atau TXT.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper-Python" }]
+      "links": [{ "label": "KODE", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper-Python" }]
     },
     {
       "no": 4,
@@ -44,7 +44,7 @@
       "name": "Wikipedia Table Scraper",
       "desc": "Scraper Node.js yang mengekstrak tabel dari halaman Wikipedia (daftar episode) menggunakan Axios dan Cheerio, output JSON atau TXT.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper" }]
+      "links": [{ "label": "KODE", "href": "https://github.com/Afadfath03/Wikipedia-Table-Scraper" }]
     },
     {
       "no": 5,
@@ -53,7 +53,7 @@
       "name": "Simple File Sorter",
       "desc": "Script Python yang mengorganisir file ke dalam folder berdasarkan huruf pertama nama file, dengan pengecualian yang dapat dikonfigurasi.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/simple-file-sorter" }      ]
+      "links": [{ "label": "KODE", "href": "https://github.com/Afadfath03/simple-file-sorter" }      ]
     },
     {
       "no": 7,
@@ -62,7 +62,7 @@
       "name": "Eepy Machine Learning",
       "desc": "Proyek machine learning yang menganalisis data kesehatan tidur dan gaya hidup menggunakan Jupyter notebook, Pandas, dan scikit-learn.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Eepy_MachineLearning" }]
+      "links": [{ "label": "KODE", "href": "https://github.com/Afadfath03/Eepy_MachineLearning" }]
     },
     {
       "no": 6,
@@ -71,7 +71,7 @@
       "name": "My Block List",
       "desc": "Kumpulan tautan filter list pemblokir iklan untuk redirect ke filter list.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/My-Block-List" }]
+      "links": [{ "label": "KODE", "href": "https://github.com/Afadfath03/My-Block-List" }]
     },
     {
       "no": 8,
@@ -101,7 +101,7 @@
       "name": "OpsGuide",
       "desc": "Platform automasi cloud. Melakukan functional dan regression testing, validasi cross-browser, serta API testing. Mengotomasi regression suite dengan Playwright.",
       "image": "",
-      "links": [{ "label": "LIVE", "href": "https://app.opsguide.cloud" }]
+      "links": [{ "label": "SITUS", "href": "https://app.opsguide.cloud" }]
     },
     {
       "no": 10,
@@ -110,7 +110,7 @@
       "name": "Portfolio dengan Admin Panel",
       "desc": "Platform portofolio dwibahasa dengan frontend Next.js, backend API, autentikasi, manajemen konten CRUD, dan penyimpanan SQLite.",
       "image": "",
-      "links": [{ "label": "REPO", "href": "https://github.com/Afadfath03/Portfolio" }]
+      "links": [{ "label": "KODE", "href": "https://github.com/Afadfath03/Portfolio" }]
     },
     {
       "no": 11,
@@ -120,8 +120,8 @@
       "desc": "Situs portofolio pribadi dibangun dengan Next.js sebagai static export penuh, dwibahasa (Inggris & Indonesia).",
       "image": "",
       "links": [
-        { "label": "LIVE", "href": "https://afadfath.net/" },
-        { "label": "REPO", "href": "https://github.com/Afadfath03/Portfolio_static" }
+        { "label": "SITUS", "href": "https://afadfath.net/" },
+        { "label": "KODE", "href": "https://github.com/Afadfath03/Portfolio_static" }
       ]
     }
   ]

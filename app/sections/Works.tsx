@@ -11,12 +11,12 @@ export default function Works({ t }: Props) {
       <div className="works-grid">
         {[...t.works.items].sort((a, b) => b.no - a.no).map((w, i) => (
           <article className="work-card reveal" key={i}>
-            {w.image && <img className="work-image" src={w.image} alt={w.name} />}
+            {w.image && <img className="work-image lang-graphic" src={w.image} alt={w.name} />}
             <div className="work-badges">
-              <span className="work-tag"><span className="lang-text">{w.tag}</span></span>
-              <span className={`work-type work-type-${w.type}`} />
+              <span className="work-tag">{w.tag}</span>
+              <span className={`work-type work-type-${w.type} lang-graphic`} />
             </div>
-            <h3><span className="lang-text">{w.name}</span></h3>
+            <h3>{w.name}</h3>
             <p><span className="lang-text">{w.desc}</span></p>
             {w.links?.some((l) => l.href) && (
               <div className="work-links">

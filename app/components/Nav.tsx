@@ -41,7 +41,7 @@ export default function Nav({ t, active, onNavigate, indicator }: Props) {
   return (
     <nav className="nav" ref={navRef} aria-label="Sections">
       <div
-        className="nav-glide"
+        className="nav-glide lang-graphic"
         style={{ top: glideTop, height: glideHeight, opacity: glideOpacity }}
       />
       {sectionIds.map((id) => (

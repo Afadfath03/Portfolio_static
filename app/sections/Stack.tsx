@@ -12,11 +12,11 @@ export default function Stack({ t }: Props) {
       <div className="stack-grid reveal">
         {t.stack.categories.map((cat) => (
           <div className="stack-card" key={cat.name}>
-            <div className={`stack-icon stack-icon-${cat.icon}`} />
-            <h3 className="stack-cat-name"><span className="lang-text">{cat.name}</span></h3>
+            <div className={`stack-icon stack-icon-${cat.icon} lang-graphic`} />
+            <h3 className="stack-cat-name">{cat.name}</h3>
             <div className="stack-items">
               {cat.items.map((item) => (
-                <span className="stack-pill" key={item}><span className="lang-text">{item}</span></span>
+                <span className="stack-pill" key={item}>{item}</span>
               ))}
             </div>
           </div>

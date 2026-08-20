@@ -12,11 +12,11 @@ export default function Services({ t }: Props) {
       <div className="services-grid reveal">
         {t.services.items.map((svc) => (
           <div className="services-card" key={svc.name}>
-            <div className={`stack-icon stack-icon-${svc.icon}`} />
-            <span className="services-name"><span className="lang-text">{svc.name}</span></span>
+            <div className={`stack-icon stack-icon-${svc.icon} lang-graphic`} />
+            <span className="services-name">{svc.name}</span>
             <div className="services-tools">
               {svc.tools.map((tool) => (
-                <span className="stack-pill" key={tool}><span className="lang-text">{tool}</span></span>
+                <span className="stack-pill" key={tool}>{tool}</span>
               ))}
             </div>
           </div>

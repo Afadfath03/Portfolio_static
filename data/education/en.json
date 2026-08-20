@@ -2,7 +2,6 @@
   "title": "EDUCATION",
   "heading": "Lorem ipsum dolor sit amet, consectetur",
   "items": [
-    { "no": 0, "degree": "DEGREE", "school": "SCHOOL", "year": "2023", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." },
-    { "no": 1, "degree": "DEGREE", "school": "SCHOOL", "year": "2024", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }
+    { "no": 0, "degree": "DEGREE", "school": "SCHOOL", "year": "2025", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }
   ]
 }
