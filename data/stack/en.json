@@ -8,9 +8,8 @@
     { "name": "FRAMEWORK", "icon": "diamond", "items": ["Axios", "Cheerio", "BeautifulSoup"] },
     { "name": "DEVOPS", "icon": "hexagon", "items": ["Git", "Docker", "GitHub Actions", "Vercel", "Linux"] },
     { "name": "MACHINE LEARNING", "icon": "star", "items": ["TensorFlow", "Pandas", "NumPy", "Scikit-learn"] },
-    { "name": "TESTING", "icon": "ring", "items": ["Playwright", "Selenium"] },
+    { "name": "TESTING", "icon": "ring", "items": ["Playwright", "Selenium", "Manual Testing", "Test Cases"] },
     { "name": "TOOLS", "icon": "triangle", "items": ["Google Docs", "Google Sheets", "Notion", "Microsoft Excel", "Microsoft Word", "Postman"] },
-    { "name": "API", "icon": "cross", "items": ["Swagger"] },
-    { "name": "PRACTICES", "icon": "dot", "items": ["REST API", "Manual Testing", "Test Cases"] }
+    { "name": "API", "icon": "cross", "items": ["Swagger", "REST API"] }
   ]
 }
